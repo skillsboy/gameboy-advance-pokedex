@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+    <title>Gameboy Advance Pokedex</title>
+</head>
+
+<body>
+    <main>
+        <div class="pokedex">
+            <div class="search">
+                <div>Search by ID/Name</div>
+                <input type="text" name="" id="pokemon-input-search">
+            </div>
+            <div class="display">
+                <div id="pokemon-img-container">
+                    <div id="pokemon-id"></div>
+                </div>
+                <div id="pokemon-details">
+                    <div id="pokemon-name"></div>
+                    <div id="pokemon-type"></div>
+                    <div id="height"></div>
+                    <div id="weight"></div>
+                </div>
+                <div id="pokemon-limiter"></div>
+                <div id="pokemon-fact"></div>
+            </div>
+            <div class="buttons">
+                <div id="up-btn"></div>
+                <div id="right-btn"></div>
+                <div id="down-btn"></div>
+                <div id="left-btn"></div>
+            </div>
+        </div>
+        <div id="tip">
+            <div>You can use the game boy left/right/up/down keys to navigate!</div>
+            <div id="close-tip">&times;</div>
+        </div>
+    </main>
+</body>
+
+</html>
